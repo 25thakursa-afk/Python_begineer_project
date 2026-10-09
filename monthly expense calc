@@ -1,0 +1,78 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNGuLH0UfWr7z+oW/oZ18Wz",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/25thakursa-afk/Python_begineer_project/blob/main/monthly%20expense%20calc\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# ***Monthly expense calc***"
+      ],
+      "metadata": {
+        "id": "-FNmMJbu4cRj"
+      }
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Lpp5mbx1wN5N",
+        "outputId": "b8fdd801-8acc-48c3-8623-5dee00113ddd"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter monthly room rent= 3000\n",
+            "Enter total no. of tiffin= 15\n",
+            "Enter monthly electricity= 450\n",
+            "Enter monthly expense= 2600\n",
+            "Your total monthly expense =  6950\n"
+          ]
+        }
+      ],
+      "source": [
+        "## room rent\n",
+        "# tiffin\n",
+        "# electricity\n",
+        "# total monthly expense\n",
+        "\n",
+        "room = int(input(\"Enter monthly room rent= \"))\n",
+        "tif = int(input(\"Enter total no. of tiffin= \"))\n",
+        "elec = int(input(\"Enter monthly electricity= \"))\n",
+        "exp = int(input(\"Enter monthly expense= \"))\n",
+        "\n",
+        "tiff = tif*60\n",
+        "cal = room + tiff + elec + exp\n",
+        "print(\"Your total monthly expense = \",cal)\n"
+      ]
+    }
+  ]
+}
